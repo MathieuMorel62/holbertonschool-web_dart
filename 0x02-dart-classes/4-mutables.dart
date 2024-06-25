@@ -10,8 +10,8 @@ class Password {
   String get password => _password;
 
   // Setter pour _password
-  set password(String password) {
-    _password = password;
+  set password(String newPassword) {
+    _password = newPassword;
   }
 
   // Méthode pour vérifier si le mot de passe est valide
