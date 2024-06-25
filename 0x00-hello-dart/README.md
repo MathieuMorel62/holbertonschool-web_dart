@@ -1,4 +1,6 @@
-<p align='center'>🌟 Dart - Hello Dart 🌟</p>
+# <p align='center'>🌟 Dart - Hello Dart 🌟</p>
+
+![dart](https://github.com/MathieuMorel62/holbertonschool-web_dart/assets/113856302/bb69c40f-04c7-451f-81b1-66f22728b6e8)
 
 ## 📝 Description
 The **Dart - Hello Dart** project is designed to introduce developers to programming using the Dart language. This project covers the basics of Dart, allowing users to familiarize themselves with its syntax and essential features. Tasks include writing simple programs to print strings, numbers, and assertions, as well as basic string and number manipulations.
