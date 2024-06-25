@@ -28,14 +28,18 @@ This project is ideal for those who are new to Dart and are looking to understan
 
 ## 🚀 Installation and Configuration
 
-1. **Step 1: Install the Dart SDK**
+1. **Step 1: Set up the Docker container**
 
-- Go to the official [Dart website](https://dart.dev/get-dart) and download the Dart SDK for your operating system.
-- Follow the installation instructions provided on the site.
-- Check the installation by running the following command in your terminal:
+- To run the Dart programs, you can use the `cirrusci/flutter` Docker image, which includes the necessary tools and dependencies to compile and execute Dart programs.
 
 ```sh
-dart --version
+docker run -d -v $PWD:/app -w /app --name projet-flutter-holberton cirrusci/flutter:latest tail -f /dev/null
+```
+
+- Access the Docker container:
+
+```sh
+docker exec -it projet-flutter-holberton bash
 ```
 
 2. **Step 2: Clone the GitHub repository**
