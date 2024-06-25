@@ -1,5 +1,7 @@
 # <p align='center'>🌟 Dart - Function 🌟</p>
 
+![dart-function](https://github.com/MathieuMorel62/holbertonschool-web_dart/assets/113856302/d40d1bcc-be9c-464c-83a6-b09f1b81eeb8)
+
 The "Dart - Function" project aims to strengthen programming skills with the Dart language by focusing on functions. This project proposes a series of progressive tasks allowing participants to understand and master the use of functions in Dart, including string manipulation, arithmetic operations, recursion, and the use of internal and external functions.
 
 Each task is designed to address a specific aspect of Dart functions, from the simplest, such as printing a message, to the most complex, such as determining the longest palindrome in a string of characters. By completing this project, participants will develop an in-depth understanding of the structure and capabilities of the functions in Dart, which is essential for any more advanced application.
@@ -71,24 +73,19 @@ Hello Mathieu
 ## ✨ Main Features
 
 1. **Handling of strings**:
+The project includes programs that manipulate strings, such as the concatenation of two strings and the display of personalized messages.
 
-- The project includes programs that manipulate strings, such as the concatenation of two strings and the display of personalized messages.
+3. **Mathematimatical operations**:
+Functions to perform addition, subtraction and factor calculation operations recursively.
 
-2. **Mathematimatical operations**:
+5. **Assertions and conditions**:
+Use of assertions to validate the conditions and ensure that the values meet certain criteria before continuing.
 
-- Functions to perform addition, subtraction and factor calculation operations recursively.
+7. **Collection manipulation**:
+Conversion of temperature lists from Celsius to Fahrenheit and use of the map method for transformations.
 
-3. **Assertions and conditions**:
-
-- Use of assertions to validate the conditions and ensure that the values meet certain criteria before continuing.
-
-4. **Collection manipulation**:
-
-- Conversion of temperature lists from Celsius to Fahrenheit and use of the map method for transformations.
-
-5. **Geometricals**:
-
-- Calculation of the area of a triangle from its height and base, with results rounded to two decimal places.
+9. **Geometricals**:
+Calculation of the area of a triangle from its height and base, with results rounded to two decimal places.
 
 ## 📝 List of Tasks
 
