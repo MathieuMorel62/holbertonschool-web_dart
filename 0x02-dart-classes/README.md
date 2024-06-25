@@ -1,4 +1,6 @@
-<p align="center">🌟 Dart - Classes 🌟</p>
+# <p align="center">🌟 Dart - Classes 🌟</p>
+
+![classes](https://github.com/MathieuMorel62/holbertonschool-web_dart/assets/113856302/07f9817a-edff-4c0f-8d4d-a310f642d693)
 
 ## 📝 Description
 
