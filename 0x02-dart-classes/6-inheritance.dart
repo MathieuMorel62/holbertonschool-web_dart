@@ -41,6 +41,6 @@ class User extends Password {
   // Méthode pour afficher l'objet User sous forme de chaîne de caractères
   @override
   String toString() {
-    return "User(id : $id ,name: $name, age: $age, height: $height, Password: ${isValid()})";
+    return "User(id : ${id} ,name: ${name}, age: ${age}, height: ${height}, Password: ${isValid()})";
   }
 }
