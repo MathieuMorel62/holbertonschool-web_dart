@@ -2,7 +2,7 @@
 
 ![dart-function](https://github.com/MathieuMorel62/holbertonschool-web_dart/assets/113856302/d40d1bcc-be9c-464c-83a6-b09f1b81eeb8)
 
-The "Dart - Function" project aims to strengthen programming skills with the Dart language by focusing on functions. This project proposes a series of progressive tasks allowing participants to understand and master the use of functions in Dart, including string manipulation, arithmetic operations, recursion, and the use of internal and external functions.
+The **Dart - Function** project aims to strengthen programming skills with the Dart language by focusing on functions. This project proposes a series of progressive tasks allowing participants to understand and master the use of functions in Dart, including string manipulation, arithmetic operations, recursion, and the use of internal and external functions.
 
 Each task is designed to address a specific aspect of Dart functions, from the simplest, such as printing a message, to the most complex, such as determining the longest palindrome in a string of characters. By completing this project, participants will develop an in-depth understanding of the structure and capabilities of the functions in Dart, which is essential for any more advanced application.
 
