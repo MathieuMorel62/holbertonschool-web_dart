@@ -1,21 +1,21 @@
 class Password {
-  String password;
+  String _password;
 
-  Password({required this.password});
+  Password({required String password}) : _password = password;
 
   bool isValid() {
-    if (password.length < 8 || password.length > 16) {
+    if (_password.length < 8 || _password.length > 16) {
       return false;
     }
-    bool hasUpperCase = password.contains(RegExp(r'[A-Z]'));
-    bool hasLowerCase = password.contains(RegExp(r'[a-z]'));
-    bool hasNumber = password.contains(RegExp(r'[0-9]'));
+    bool hasUpperCase = _password.contains(RegExp(r'[A-Z]'));
+    bool hasLowerCase = _password.contains(RegExp(r'[a-z]'));
+    bool hasNumber = _password.contains(RegExp(r'[0-9]'));
 
     return hasUpperCase && hasLowerCase && hasNumber;
   }
 
   @override
   String toString() {
-    return 'Your Password is $password';
+    return 'Your Password is $_password';
   }
 }
