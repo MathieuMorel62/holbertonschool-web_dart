@@ -31,4 +31,4 @@ output
 
 # Main test Dart
 *-main.dart
-0-util.dart
+*-util.dart
