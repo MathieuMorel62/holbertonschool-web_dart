@@ -22,6 +22,6 @@ Future<String> calculateTotal() async {
     }
     return '${totalPrice}';
   } catch (error) {
-    return 'error caught: $error';
+    return '-1';
   }
 }
