@@ -1,30 +1,27 @@
-import 'dart:convert';
 import '4-util.dart';
+import 'dart:convert';
 
 
-Future<double> calculateTotal() async {
+Future<String> calculateTotal() async {
   try {
-    // Récupére les données utilisateur
+    // Récupérer les données de l'utilisateur
     String userData = await fetchUserData();
     Map<String, dynamic> userMap = jsonDecode(userData);
-    String userId = userMap['id'];
+    String id = userMap['id'];
 
-    // Récupére les commandes de l'utilisateur
-    String userOrdersData = await fetchUserOrders(userId);
-    List<dynamic> userOrders = jsonDecode(userOrdersData);
+    // Récupérer les commandes de l'utilisateur
+    String orders = await fetchUserOrders(id);
+    List<dynamic> orderList = jsonDecode(orders);
 
-    // Initialise le prix total
     double totalPrice = 0.0;
 
-    // Récupére le prix de chaque produit et ajouter au total
-    for (var product in userOrders) {
-      String productPriceData = await fetchProductPrice(product);
-      double productPrice = double.parse(productPriceData);
-      totalPrice += productPrice;
+    // Calculer le prix total des commandes
+    for (var order in orderList) {
+      String productPrice = await fetchProductPrice(order);
+      totalPrice += jsonDecode(productPrice);
     }
-
-    return totalPrice;
+    return '${totalPrice}';
   } catch (error) {
-    return -1;
+    return '-1';
   }
 }
