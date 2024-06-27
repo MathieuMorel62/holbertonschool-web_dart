@@ -1,5 +1,7 @@
 # <p align='center'>🌟 Dart - Asynchronous 🌟</p>
 
+![async](https://github.com/MathieuMorel62/holbertonschool-web_dart/assets/113856302/e6fe6e53-9c87-4cfe-a732-260ff0505160)
+
 ## 📝 Description
 
 The **Dart - Asynchronous** project explores asynchronous programming with the Dart language. It focuses on the management of asynchronous operations, essential for the development of responsive and efficient applications. The project covers several key aspects of asynchronous programming, such as the use of `Future` and `async/await` to manage non-blocking tasks.
